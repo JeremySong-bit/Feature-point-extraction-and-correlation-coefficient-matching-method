@@ -13,3 +13,14 @@ Moravec 特征点提取算法是由 Moravec 于 1977 年提出的。该算法的
 （3）遍历所有估计点。每个估计点都会在目标影像上定义一个特定大小的滑动窗口，同时在匹配影像上为同名点定义一个搜索区域。然后，在滑动区域内，我们以每个像素为中心创建一个比滑动区域小的搜索窗口，并计算每个搜索窗口与目标窗口之间的相关系数，公式如下所示，选择每个搜索区域中相关系数最高的窗口的中心像素点，将其视为与特征点对应的同名点。
 
 ![image](https://github.com/user-attachments/assets/f2b466db-f2f0-42e0-87ee-44950181794e)
+
+# 结果展示
+## Moravec 特征点提取结果
+
+![image](https://github.com/user-attachments/assets/4c98c955-7e51-4420-b8f8-86c2dbbc8af8)
+
+## Moravec 相关系数法影像匹配结果
+
+![image](https://github.com/user-attachments/assets/85e9717b-5cca-4780-b2fb-2273d9ff7471)
+
+
